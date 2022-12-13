@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+#map {
+    height: 100%;
+}
+.filter-menu {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+
+    padding: 5px;
+    background-color: rgba(134, 133, 133, 0.537);
+    border-radius: 2px;
+}
+#filtersForm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#applyForm {
+    width: fit-content;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offices Map</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <div class="filter-menu">
+        <form id="filtersForm">
+            <div>
+                <input type="checkbox" name="filter" value="starlink" id="starlink">
+                <label for="starlink">Starlink</label>
+            </div>
+            <div>
+                <input type="checkbox" name="filter" value="power" id="power">
+                <label for="power">Uninterruptible Power Supply</label>
+            </div>
+        </form>
+        
+        <button id="applyForm">Apply</button>
+    </div>
+    
+    <script src="/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=[ENTER_YOUR_API_KEY]&callback=initMap&v=weekly"></script>
+</body>
+</html>
